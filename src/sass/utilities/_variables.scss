@@ -1,0 +1,41 @@
+@use './functions' as f;
+
+$breakpoints: (
+    'mobile': f.em(320),
+    'desktop': f.em(768)
+);
+
+$font: (
+    'ff-style1': ("Inter", sans-serif),
+    'fs-root': f.rem(14),
+    'fw-root': 400,
+    'lh-root': normal,
+    'ls-root': 0
+);
+
+$colors: (
+    // primary
+    'color-green': hsl(75, 94%, 57%),
+    // Neutral
+    'color-White': hsl(0, 0%, 100%),
+    'color-Grey': hsl(0, 0%, 20%),
+    'color-DarkGrey': hsl(0, 0%, 12%),
+    'color-OffBlack': hsl(0, 0%, 8%)
+);
+
+$border: (
+    'br-standard': f.rem(10),
+    'br-image': 100%
+);
+
+$padding: ();
+
+$width: ();
+
+$height: ();
+
+$flex: ();
+
+$transition: (
+    'transition-default': 0.5s ease-in-out
+);

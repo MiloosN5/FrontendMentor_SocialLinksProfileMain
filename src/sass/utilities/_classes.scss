@@ -1,0 +1,11 @@
+@use 'sass:map';
+@use '../utilities/variables' as v;
+@use '../utilities/mixins' as m;
+
+.text {
+    &--location {
+        @include m.colors($foreground: 'color-green');
+        @include m.font($font-weight: 700);
+    }
+}
+

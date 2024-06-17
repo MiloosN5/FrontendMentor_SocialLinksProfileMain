@@ -1,0 +1,35 @@
+@use 'sass:map';
+@use '../utilities/variables' as v;
+@use '../utilities/mixins' as m;
+@use '../utilities/functions' as f;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+html {
+    font-size: f.rem(16);
+}
+
+*, *::before, *::after {
+    @include m.font(
+        $font-family: 'ff-style1',
+        $font-size: 'fs-root',
+        $font-weight: 'fw-root'
+    );
+    @include m.colors(
+        $foreground: 'color-White'
+    );
+}
+
+h2 {
+    @include m.font(
+        $font-size: f.rem(24),
+        $font-weight: 600
+    );
+}
+
+li {
+    @include m.font(
+        $font-weight: 600
+    );
+}
+

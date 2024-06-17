@@ -1,0 +1,16 @@
+@use 'sass:map';
+@use '../utilities/variables' as v;
+@use '../utilities/functions' as f;
+@use '../utilities/mixins' as m;
+
+.card {
+    &__image {
+        @include m.dimensions(
+            $width: f.rem(90),
+            $height: f.rem(90)
+        );
+        @include m.border(
+            $border-radius: 'br-image'
+        );
+    }
+}
