@@ -32,7 +32,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
         <img src="./src/solution_images/solution_interactive.png" width="auto" height="400px" src="solution on mobile when hovering over link"/>
     </div>
     <figcaption style="flex:1;width:100;font-style:italic">
-        My solution for mobile (left) and desktop (center) devices and hover state (right).
+        <em>My solution for mobile (left) and desktop (center) devices and hover state (right).</em>
     </figcaption>
 </figure>
 
