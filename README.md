@@ -29,9 +29,10 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
     <div style="display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;align-content:center;gap:5px;width:100%">
         <img src="./src/solution_images/solution_mobile.png" width="auto" height="400px" src="solution on mobile view"/>
         <img src="./src/solution_images/solution_desktop.png" width="auto" height="400px" src="solution on desktop view"/>
+        <img src="./src/solution_images/solution_interactive.png" width="auto" height="400px" src="solution on mobile when hovering over link"/>
     </div>
     <figcaption style="flex:1;width:100;font-style:italic">
-        My solution for mobile and desktop (last photo) devices
+        My solution for mobile (left) and desktop (center) devices and hover state (right).
     </figcaption>
 </figure>
 
