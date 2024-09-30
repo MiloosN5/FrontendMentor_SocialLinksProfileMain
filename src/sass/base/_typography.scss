@@ -27,9 +27,5 @@ h2 {
     );
 }
 
-li {
-    @include m.font(
-        $font-weight: 600
-    );
-}
+
 
